@@ -5,4 +5,6 @@
 ## Explanation of the Random_Selecting demo:
 - ### ✔️Basic Implementation: 
   - At first press **keycode C** to enter calibration process, and 3*6 = 18 points show in the scene to adjust the mapping content between your real gaze point and the point in VR scene.
-  - First ten cubes marked with number 0~9 are instantiated randomly in Z-axis fixed 2D surface [*(why 2D?)*]().
+  - After calibration, the canvas reminder should notice you that the pupil-lab is connected if you set the equipment right. Ten cubes marked with number 0~9 are instantiated randomly in Z-axis fixed 2D surface [*(why 2D?)*]().
+  - Try not to cause relative slippage between your head and the headset as the mapping is crucial for eye_tracking. 
+  - Now you can look around and you'll find a red point and a green point also move in the scene. These two points represent your gaze point of your left eye(red) and right eye(green), respectively. When they overlap at the same cube, which also means you stare at the cube, the cube turns blue immediately, and it turns red if you keep looking at it for over 3 seconds.
