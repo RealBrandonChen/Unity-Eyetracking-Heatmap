@@ -1,4 +1,4 @@
-# UnityVR-Eye_tracking-Demo
+# Unity-Eyetracking-Heatmap
 ### This repository aims to develop a small VR demo using [Pupil-labs](https://pupil-labs.com/) eye_tracking function. The developing team of the Pupil-lab have already integrated their hardware [(HTC-Vive Add-on)](https://docs.pupil-labs.com/vr-ar/htc-vive/) with [Unity3D](https://unity.com/cn) and realized the eye-tracking function in VR scene. To understand the workflow and implementation of the original Unity3D + Pupil Capture/Service, please refer to their [repo](https://github.com/pupil-labs/hmd-eyes/blob/master/docs/Developer.md) and play with their demos to get your hand dirty. Of course you can directly download the latest [release]() and get startted.
 ### Gif
 
