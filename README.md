@@ -1,8 +1,8 @@
 # Unity-Eyetracking-Heatmap
 ### This repository aims to develop a small VR demo to realize [Pupil-labs](https://pupil-labs.com/) eye_tracking function and postprocessing heatmap. The developing team of the Pupil-lab have already integrated their hardware [(HTC-Vive Add-on)](https://docs.pupil-labs.com/vr-ar/htc-vive/) with [Unity3D](https://unity.com/cn) and realized the eye-tracking function in VR scene. To understand the workflow and implementation of the original Unity3D + Pupil Capture/Service, please refer to their [repo](https://github.com/pupil-labs/hmd-eyes/blob/master/docs/Developer.md) and play with their demos to get your hand dirty. Of course you can directly download the latest [release]() and get startted.
-|![Demo](/Images/demo.gif)     |![Heatmap](/Images/heatmap.gif)    |
-| --------------------------------------                  | -----------         |
-| *Figure1. Eye tracking demo with Apritag* | *Figure2. Corresponding heatmap*    |
+|<img src="/Images/demo.gif" width="500" height="350">      |<img src="/Images/heatmap.gif" width="500" height="350">   |
+| --------------------------------------                    | -----------                                               |
+| *Figure1. Eye tracking demo with ApriTag*                 | *Figure2. Corresponding heatmap*                          |
 
 
 ## Explanation of the Random_Selecting demo:
